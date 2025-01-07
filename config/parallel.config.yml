@@ -1,0 +1,19 @@
+server: hub.lambdatest.com
+user: LT_USERNAME
+key: LT_ACCESS_KEY
+
+common_caps:
+  build: ruby-capybara
+  name:  capybara test
+  "selenium_version": 4.0.0
+
+
+    
+browser_caps:
+-
+    "LT:Options":
+      "browserName": chrome
+-
+    "LT:Options": 
+      "browserName": safari
+
