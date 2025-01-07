@@ -7,5 +7,6 @@
 
 ### Running your tests
 * To run tests, run `bundle exec rake single`
+* To run tests, run `bundle exec rake parallel`
 
  
